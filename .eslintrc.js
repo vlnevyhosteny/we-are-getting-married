@@ -18,6 +18,7 @@ module.exports = {
     amd: true,
     node: true
   },
+  plugins: ['simple-import-sort'],
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
