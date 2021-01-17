@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.utils {
+  &-padding {
+    &-left-0px {
+      padding-left: 0;
+    }
+
+    &-right-0px {
+      padding-right: 0;
+    }
+
+    &-none {
+      @extend .utils-padding-left-0px;
+      @extend .utils-padding-right-0px;
+    }
+  }
+}
+
+.image {
+  &-caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+  }
+}
