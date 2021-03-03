@@ -37,7 +37,7 @@ export default function Home(): JSX.Element {
           </Col>
         </Row>
         <Row>
-          <Col className="utils-wip blue">Accomodation info + foto</Col>
+          <Col className="utils-wip blue">#FR08 - Accommodation info + foto</Col>
         </Row>
         <Row>
           <Col xs={12} lg={6} className="utils-wip grey">
